@@ -15,12 +15,12 @@ This script loads CSV files into Snowflake tables. For each CSV file in a specif
 2. Install the required libraries by running `pip install -r requirements.txt`.
 3. Create a `.env` file in the project directory with the following variables:
 
-account="your-snowflake-account"
-user="your-snowflake-user"
-password="your-snowflake-password"
-database="your-snowflake-database"
-schema="your-snowflake-schema"
-role="your-snowflake-role"
+- `account`="your-snowflake-account"
+- `user`="your-snowflake-user"
+- `password`="your-snowflake-password"
+- `database`="your-snowflake-database"
+- `schema`="your-snowflake-schema"
+- `role`="your-snowflake-role"
 
 
 4. Replace the values in angle brackets with your Snowflake account details. There is no need to worry about loading environment variables, since this project uses the dotenv library to automate that.
